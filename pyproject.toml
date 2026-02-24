@@ -1,0 +1,15 @@
+[project]
+name = "macro-forecast-mcp"
+version = "1.0.0"
+description = "MCP server for MoneyChoice Get Macro Economic Forecast API (FRED indicators)."
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0,<3",
+    "httpx>=0.27.0",
+]
+
+[project.scripts]
+macro-forecast-mcp = "macro_forecast_mcp:main"
+
+[tool.uv]
+dev-dependencies = []

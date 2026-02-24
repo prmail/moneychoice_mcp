@@ -1,0 +1,24 @@
+[Unit]
+Description=Macro Economic Forecast MCP Server (HTTP)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/var/www/api.moneychoice.us/mcp-server
+Environment=PYTHONPATH=/var/www/api.moneychoice.us/mcp-server/packages
+Environment=MCP_HTTP_PORT=9000
+Environment=MCP_HTTP_HOST=0.0.0.0
+# Optional: set if your MoneyChoice API base or key differ
+# Environment=MONEYCHOICE_API_BASE=https://api.moneychoice.us
+# Environment=MONEYCHOICE_API_KEY = 
+# Cache: TTL in seconds (default 3600). Invalidate when data changes: touch path in MCP_FORECAST_VERSION_FILE
+# Environment=MCP_FORECAST_CACHE_TTL=172800
+# Environment=MCP_FORECAST_VERSION_FILE=/var/www/api.moneychoice.us/mcp-server/.forecast_version
+ExecStart=/usr/bin/python3 /var/www/api.moneychoice.us/mcp-server/macro_forecast_mcp.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+# Use either fastmcp (standalone) or mcp (official SDK)
+fastmcp>=2.0,<3
+# mcp[cli]>=1.2.0  # alternative: official Model Context Protocol SDK
+httpx>=0.27.0
+uvicorn>=0.30.0
+starlette>=0.38.0
