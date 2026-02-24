@@ -1,37 +1,76 @@
-# MoneyChoice MCP Server
+# 💎 MoneyChoice MCP Server
 
-## Overview
-MoneyChoice MCP Server delivers institutional-grade economic forecasts powered by our proprietary quantum-driven analytical framework. Unlike traditional technical analysis that relies solely on historical patterns, MoneyChoice evaluates complex market dynamics using advanced quantum computational principles designed to analyze multiple market possibilities simultaneously.
+[![Claude Compatibility](https://img.shields.io/badge/Claude-Compatible-blueviolet)](https://claude.ai)
+[![License](https://img.shields.io/badge/License-Institutional-blue)](https://moneychoice.us/)
 
-With a documented 80%+ prediction accuracy since 2015, MoneyChoice Capital provides transparent, performance-backed forecasts across major economic indicators. Complete historical performance records, methodology transparency, and long-term accuracy metrics are publicly available at [https://moneychoice.us/](https://moneychoice.us/), allowing users to independently verify our track record and review past prediction outcomes.
+**Institutional-grade economic forecasts powered by a proprietary quantum-driven analytical framework.**
 
-The server integrates seamlessly via the Model Context Protocol (MCP), enabling structured access to high-confidence macroeconomic predictions for analysts, traders, institutions, and AI-powered systems.
+---
 
-## How to Use MoneyChoice MCP Server
+## 🕒 Overview
+MoneyChoice MCP Server delivers high-conviction economic forecasts. Unlike traditional technical analysis that relies solely on historical patterns, **MoneyChoice** evaluates complex market dynamics using advanced quantum computational principles designed to analyze multiple market possibilities simultaneously.
 
-To access the MoneyChoice MCP Server, connect via the official MCP endpoint:
+### 📊 Performance at a Glance
+- **Accuracy**: Documented **80%+** prediction accuracy since 2015.
+- **Transparency**: Performance records and methodology are publicly verifiable at [moneychoice.us](https://moneychoice.us/).
+- **Protocol**: Built on the **Model Context Protocol (MCP)** for seamless AI integration.
 
-**https://api.moneychoice.us/mcp**
+---
 
-You can configure this endpoint within your AI assistant settings or integrate it into custom dashboards, trading systems, or research platforms. The server provides standardized forecast responses for structured macroeconomic analysis across multiple time horizons.
+## 🚀 Key Features
 
-## Key Features of MoneyChoice MCP Server
+- ⚛️ **Quantum-Driven Analysis**: Evaluates market probabilities beyond traditional models.
+- ✅ **High-Conviction Signals**: Strict validation methodology ensures only top predictions pass.
+- 🌎 **Comprehensive Coverage**: 
+  - *Inflation, Labor Markets, Monetary Policy*
+  - *Production, Housing, FX, Commodities*
+  - *Equities, Volatility, Yield Spreads, and GDP Nowcasts*
+- 📅 **Multi-Horizon Support**: Forecasts for **Monthly**, **Quarterly**, and **Yearly** horizons.
 
-- **Quantum-driven forecasting framework**: Evaluates market probabilities beyond traditional sequential technical models.
-- **Proven 80%+ historical accuracy**: Documented success since 2015, with publicly verifiable performance records.
-- **Comprehensive Coverage**: Major economic sectors including inflation, labor markets, monetary policy, production, housing, FX, commodities, equities, volatility, yield spreads, and GDP nowcasts.
-- **Multi-Horizon Forecasts**: Available across monthly, quarterly, and yearly timeframes.
-- **Strict Signal Validation**: Only high-conviction predictions pass internal quality checks.
-- **Full MCP Compatibility**: Seamless integration into AI systems, research pipelines, and financial applications.
+---
 
-## Use Cases of MoneyChoice MCP Server
+## 🖥️ Claude Desktop Integration
 
-- Macro-driven investment strategy development.
-- Integrating institutional-grade forecasts into AI trading or risk models.
-- Monitoring economic cycles across short-, medium-, and long-term horizons.
-- Automating economic intelligence dashboards and analytical reporting systems.
-- Backtesting strategy performance against historically generated MoneyChoice signals.
+To use MoneyChoice MCP directly in **Claude Desktop**, add the following to your configuration file:
 
-## License
+### Server Config
+```json
+{
+  "mcpServers": {
+    "moneychoice": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://api.moneychoice.us/mcp"
+      ]
+    }
+  }
+}
+```
 
-Institutional use only. See [MoneyChoice.us](https://moneychoice.us/) for details.
+---
+
+## 🛠️ Use Cases
+
+- 📈 **Strategy Development**: Macro-driven investment strategy formulation.
+- 🤖 **AI Trading**: Integrating institutional-grade forecasts into trading models.
+- 📉 **Cycle Monitoring**: Monitoring economic cycles across short, medium, and long-term.
+- 📊 **Intelligence Dashboards**: Automating economic intelligence and analytical reporting.
+- 🧪 **Backtesting**: Testing strategies against historically generated MoneyChoice signals.
+
+---
+
+## 🔗 How to Use
+Connect via the official MCP endpoint:
+**`https://api.moneychoice.us/mcp`**
+
+Integrate it into:
+- ✍️ AI Assistant Settings (Claude, Cursor, etc.)
+- 📊 Custom Financial Dashboards
+- 📈 Institutional Trading Platforms
+
+---
+
+## 📜 License
+Institutional use only. For full details and performance data, visit [MoneyChoice.us](https://moneychoice.us/).
