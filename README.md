@@ -1,7 +1,8 @@
 <div align="center">
-  <img src="https://moneychoice.us/images/money_choice_capital_logo.jpeg" alt="MoneyChoice Capital Logo" width="600" style="border-radius: 10px; margin-bottom: 20px;">
-
-  # 💎 MoneyChoice MCP Server
+  <h1>
+    <img src="https://moneychoice.us/images/money_choice_capital_logo.jpeg" alt="MoneyChoice Capital Logo" width="180" style="vertical-align: middle; margin-right: 10px;">
+    MoneyChoice MCP Server
+  </h1>
   ### Institutional-Grade Quantum Economic Forecasts
 
   [![Claude Compatibility](https://img.shields.io/badge/Claude-Compatible-blueviolet?style=for-the-badge&logo=anthropic)](https://claude.ai)
