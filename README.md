@@ -1,51 +1,36 @@
 # MoneyChoice MCP Server
 
-The MoneyChoice MCP Server delivers institutional-grade economic forecasts powered by a proprietary quantum-inspired analytical framework.
+## Overview
+MoneyChoice MCP Server delivers institutional-grade economic forecasts powered by our proprietary quantum-driven analytical framework. Unlike traditional technical analysis that relies solely on historical patterns, MoneyChoice evaluates complex market dynamics using advanced quantum computational principles designed to analyze multiple market possibilities simultaneously.
 
-## Features
+With a documented 80%+ prediction accuracy since 2015, MoneyChoice Capital provides transparent, performance-backed forecasts across major economic indicators. Complete historical performance records, methodology transparency, and long-term accuracy metrics are publicly available at [https://moneychoice.us/](https://moneychoice.us/), allowing users to independently verify our track record and review past prediction outcomes.
 
-- **Quantum-Driven Framework**: Evaluates multi-state market probabilities.
-- **Institutional Coverage**: Inflation, Labor, Monetary Policy, GDP, FX, Commodities, Equities, and more.
-- **High Accuracy**: Documented 80%+ historical accuracy since 2015.
-- **MCP Native**: Full compatibility with the Model Context Protocol.
+The server integrates seamlessly via the Model Context Protocol (MCP), enabling structured access to high-confidence macroeconomic predictions for analysts, traders, institutions, and AI-powered systems.
 
-## Installation
+## How to Use MoneyChoice MCP Server
 
-```bash
-pip install -r requirements.txt
-```
+To access the MoneyChoice MCP Server, connect via the official MCP endpoint:
 
-## Configuration
+**https://api.moneychoice.us/mcp**
 
-Copy `.env.example` to `.env` and add your API key:
+You can configure this endpoint within your AI assistant settings or integrate it into custom dashboards, trading systems, or research platforms. The server provides standardized forecast responses for structured macroeconomic analysis across multiple time horizons.
 
-```bash
-MONEYCHOICE_API_KEY=your_api_key_here
-```
+## Key Features of MoneyChoice MCP Server
 
-### Environment Variables
+- **Quantum-driven forecasting framework**: Evaluates market probabilities beyond traditional sequential technical models.
+- **Proven 80%+ historical accuracy**: Documented success since 2015, with publicly verifiable performance records.
+- **Comprehensive Coverage**: Major economic sectors including inflation, labor markets, monetary policy, production, housing, FX, commodities, equities, volatility, yield spreads, and GDP nowcasts.
+- **Multi-Horizon Forecasts**: Available across monthly, quarterly, and yearly timeframes.
+- **Strict Signal Validation**: Only high-conviction predictions pass internal quality checks.
+- **Full MCP Compatibility**: Seamless integration into AI systems, research pipelines, and financial applications.
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `MONEYCHOICE_API_KEY` | Your MoneyChoice API key | Required |
-| `MONEYCHOICE_API_BASE` | API base URL | `https://api.moneychoice.us` |
-| `MCP_HTTP_PORT` | Port to run HTTP server | Omit for stdio mode |
-| `MCP_FORECAST_CACHE_TTL` | Cache TTL in seconds | `172800` (48 hours) |
+## Use Cases of MoneyChoice MCP Server
 
-## Usage
-
-Run the server in stdio mode:
-
-```bash
-python macro_forecast_mcp.py
-```
-
-Or in HTTP mode:
-
-```bash
-export MCP_HTTP_PORT=9000
-python macro_forecast_mcp.py
-```
+- Macro-driven investment strategy development.
+- Integrating institutional-grade forecasts into AI trading or risk models.
+- Monitoring economic cycles across short-, medium-, and long-term horizons.
+- Automating economic intelligence dashboards and analytical reporting systems.
+- Backtesting strategy performance against historically generated MoneyChoice signals.
 
 ## License
 
