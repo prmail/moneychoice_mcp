@@ -80,6 +80,20 @@ Add this to your `claude_desktop_config.json`:
 }
 ```
 
+### 🖱️ Cursor MCP Config
+Add this to your Cursor MCP settings:
+
+```json
+{
+  "mcpServers": {
+    "macro-forecast": {
+      "url": "https://api.moneychoice.us/mcp",
+      "transport": "sse"
+    }
+  }
+}
+```
+
 ---
 
 ## 🛠️ Performance-Driven Use Cases
