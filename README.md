@@ -25,6 +25,10 @@
 
 The **MoneyChoice MCP Server** delivers high-conviction macroeconomic forecasts through a proprietary analytical framework. Traditional economic modeling often relies on linear regressions or lagging historical patterns. **MoneyChoice Capital** disrupts this by employing **quantum-inspired computational principles** to evaluate thousands of potential market "states" simultaneously.
 
+<a href="https://glama.ai/mcp/servers/@prmail/money-choice">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@prmail/money-choice/badge" alt="MoneyChoice MCP server" />
+</a>
+
 ### 🏆 A Legacy of Precision
 - **Proven Accuracy**: Since 2015, MoneyChoice Capital has maintained a documented **80%+** hit rate on major macroeconomic shifts.
 - **Mathematical Rigor**: Our models move beyond sequential technical analysis, using multi-probability state evaluation to identify high-probability outcomes.
