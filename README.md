@@ -54,7 +54,7 @@ The **MoneyChoice MCP Server** delivers high-conviction macroeconomic forecasts 
 ## 🎥 Watch the Setup & Demo
 <p align="center">
   <a href="https://youtu.be/9SE2pA5K2sc?si=zHKk_DzLu05bTdpI">
-    <img src="https://img.youtube.com/vi/9SE2pA5K2sc/maxresdefault.jpg" alt="MoneyChoice MCP Setup & Demo" width="700" style="border-radius: 10px;">
+    <img src="https://img.youtube.com/vi/9SE2pA5K2sc/0.jpg" alt="MoneyChoice MCP Setup & Demo" width="700" style="border-radius: 10px;">
   </a>
   <br>
   <i>Ready to transform your workflow? Click above to watch our full setup and demonstration!</i>
