@@ -19,7 +19,6 @@
   </p>
 </div>
 
----
 
 ## 💎 The MoneyChoice Advantage
 
@@ -49,6 +48,17 @@ The **MoneyChoice MCP Server** delivers high-conviction macroeconomic forecasts 
 *   **Strict Signal Validation**: Only predictions with multi-layered verification pass our "High-Conviction" threshold.
 *   **Multi-Horizon Capability**: Standardized data across **Monthly**, **Quarterly**, and **Yearly** horizons for strategic planning.
 *   **Format Standard**: Delivers structured, AI-ready JSON payloads for precise programmatic ingestion.
+
+---
+
+## 🎥 Watch the Setup & Demo
+<p align="center">
+  <a href="https://youtu.be/9SE2pA5K2sc?si=zHKk_DzLu05bTdpI">
+    <img src="https://img.youtube.com/vi/9SE2pA5K2sc/maxresdefault.jpg" alt="MoneyChoice MCP Setup & Demo" width="700" style="border-radius: 10px;">
+  </a>
+  <br>
+  <i>Ready to transform your workflow? Click above to watch our full setup and demonstration!</i>
+</p>
 
 ---
 
@@ -96,7 +106,13 @@ Add this to your Cursor MCP settings:
 
 ---
 
-## 🛠️ Performance-Driven Use Cases
+## � Connection
+Connect to the official Protocol Endpoint. This is the server url:
+**`https://api.moneychoice.us/mcp`**
+
+---
+
+## �🛠️ Performance-Driven Use Cases
 
 ### 📈 Alpha Generation & Strategy
 *   **Macro Overlay**: Use 80%+ accurate forecasts to weight portfolio allocations across equity sectors and commodities.
@@ -112,9 +128,15 @@ Add this to your Cursor MCP settings:
 
 ---
 
-## 🔗 Connection
-Connect to the official Protocol Endpoint:
-**`https://api.moneychoice.us/mcp`**
+## 🌐 MCP Ecosystem Listings
+
+The MoneyChoice MCP Server is listed across major MCP discovery directories:
+
+- **MCP.so** – https://mcp.so
+- **Cursor MCP Directory** – https://cursor.directory
+- **MCP Servers Directory** – https://mcpservers.org
+
+These platforms make it easier for developers and analysts to discover and integrate MCP tools.
 
 ---
 
