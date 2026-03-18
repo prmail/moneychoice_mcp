@@ -106,13 +106,13 @@ Add this to your Cursor MCP settings:
 
 ---
 
-## � Connection
+## Connection
 Connect to the official Protocol Endpoint. This is the server url:
 **`https://api.moneychoice.us/mcp`**
 
 ---
 
-## �🛠️ Performance-Driven Use Cases
+## 🛠️ Performance-Driven Use Cases
 
 ### 📈 Alpha Generation & Strategy
 *   **Macro Overlay**: Use 80%+ accurate forecasts to weight portfolio allocations across equity sectors and commodities.
