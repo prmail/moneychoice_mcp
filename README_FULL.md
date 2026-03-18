@@ -112,9 +112,9 @@ Connect to the official Protocol Endpoint. This is the server url:
 
 ---
 
-> 🔑 **API Access & Paid Plans**  
-> For API key access and premium features, visit [moneychoice.us](https://moneychoice.us/)  
-> or contact us at **support@moneychoice.us**
+## 🔑 **API Access & Paid Plans**  
+For API key access and premium features, visit [moneychoice.us](https://moneychoice.us/)  
+or contact us at **support@moneychoice.us**
 
 ---
 
