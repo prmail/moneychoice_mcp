@@ -112,6 +112,12 @@ Connect to the official Protocol Endpoint. This is the server url:
 
 ---
 
+## 🔑 **API Access & Paid Plans**  
+For API key access and premium features, visit [moneychoice.us](https://moneychoice.us/)  
+or contact us at **support@moneychoice.us**
+
+---
+
 ## 🛠️ Performance-Driven Use Cases
 
 ### 📈 Alpha Generation & Strategy
@@ -135,6 +141,8 @@ The MoneyChoice MCP Server is listed across major MCP discovery directories:
 - **MCP.so** – https://mcp.so
 - **Cursor MCP Directory** – https://cursor.directory
 - **MCP Servers Directory** – https://mcpservers.org
+- **Glama AI** – https://glama.ai
+- **Smithery AI** – https://smithery.ai
 
 These platforms make it easier for developers and analysts to discover and integrate MCP tools.
 
