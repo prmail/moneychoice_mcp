@@ -1,20 +1,9 @@
-© 2026 MoneyChoice Capital. All rights reserved.
+MIT License
 
-This software and associated documentation files (the "Software") are the proprietary property of MoneyChoice Capital.
+Copyright (c) 2026 MoneyChoice Capital
 
-Permission is granted to use the Software solely through the official API endpoint (https://api.moneychoice.us/mcp) for personal, research, and evaluation purposes.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
 
-Restrictions:
-- No redistribution, sublicensing, or resale of the Software
-- No modification, reverse engineering, or extraction of core logic
-- No use of the Software or its outputs to build competing commercial products
-- No unauthorized automated access beyond defined API limits
-
-Access to the Software may be restricted, rate-limited, or revoked at any time.
-
-The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to accuracy, reliability, or fitness for a particular purpose.
-
-This Software does not constitute financial advice.
-
-For commercial or institutional licensing, contact:
-support@moneychoice.us
+[rest standard MIT text]
